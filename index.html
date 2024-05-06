@@ -1,43 +1,7 @@
-<!DOCTYPE html>
-<meta http-equiv="refresh" content="600" />
-<style>
-body {
-    background-color: #1b4a6b;
-}
-div {
-    text-align:center;
-}
-</style>
-
-<div id="clockbox"></div>
-
-<script type="text/javascript">
-var tday=["Sun","Mon","Tue","Wed","Thur","Fri","Sat"];
-var tmonth=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
-
-function GetClock(){
-var d=new Date();
-var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getFullYear();
-var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds(),ap;
-
-if(nhour==0){ap=" AM";nhour=12;}
-else if(nhour<12){ap=" AM";}
-else if(nhour==12){ap=" PM";}
-else if(nhour>12){ap=" PM";nhour-=12;}
-
-if(nmin<=9) nmin="0"+nmin;
-<!-- ## if(nsec<=9) nsec="0"+nsec; -->
-
-var clocktext="<span style=\"font:97pt Arial; color:#ffffff;\">"+nhour+":"+nmin+""+ap+"</span> <br> <span style=\"font:14pt Arial; color:#ccccff;\">"+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyear+"</span>";
-
-document.getElementById('clockbox').innerHTML=clocktext;
-}
-
-GetClock();
-setInterval(GetClock,1000);
+<script>
+var Today = new Date();
+document.getElementsByClassName('weatherwidget-io').data-label_1=109;    
 </script>
-
-<!--Below is a weather widget from weatherwidget.io you can go there to personalize this code for your own needs  -->
 
 <a class="weatherwidget-io" href="https://forecast7.com/zh-tw/40d71n74d01/new-york/" data-label_1="紐約" data-font="微軟正黑體 (Microsoft JhengHei)" data-icons="Climacons" data-mode="Current" data-days="3" data-theme="weather_one" data-basecolor="rgba(255, 255, 255, 0)">紐約</a>
 <script>
