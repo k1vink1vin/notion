@@ -18,7 +18,7 @@ document.getElementsByTagName('head')[0].appendChild(link);
 angular.module("app", ["leaflet-directive"])
 .controller('GermanMapCtrl', ["$scope", "$http", function($scope, $http) {
   $scope.showCenterCoords = true ;
-  $scope.countriesGeoJson = "./countries.geo.json";
+  $scope.countriesGeoJson = "https://osm-countries-geojson.monicz.dev/osm-countries-0-1.geojson";
   $scope.countriesJson = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/93930/countries.json?v=11";
   // Events: https://github.com/tombatossals/angular-leaflet-directive/blob/master/src/services/events/leafletGeoJsonEvents.js
   $scope.$on("leafletDirectiveMap.geojsonMouseover", function(event, feature, leafletEvent) {
