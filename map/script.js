@@ -1,22 +1,18 @@
-      google.charts.load('current', {
-        'packages':['geochart'],
-      });
-      google.charts.setOnLoadCallback(drawRegionsMap);
+import './style.css';
+import Map from 'ol/Map.js';
+import OSM from 'ol/source/OSM.js';
+import TileLayer from 'ol/layer/Tile.js';
+import View from 'ol/View.js';
 
-      function drawRegionsMap() {
-        var data = google.visualization.arrayToDataTable([
-          ['Country', 'Popularity'],
-          ['Germany', 200],
-          ['United States', 300],
-          ['Brazil', 400],
-          ['Canada', 500],
-          ['France', 600],
-          ['RU', 700]
-        ]);
-
-        var options = {};
-
-        var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
-
-        chart.draw(data, options);
-      }
+const map = new Map({
+  target: 'map',
+  layers: [
+    new TileLayer({
+      source: new OSM(),
+    }),
+  ],
+  view: new View({
+    center: [0, 0],
+    zoom: 2,
+  }),
+});
