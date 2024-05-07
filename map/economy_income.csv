@@ -1,0 +1,247 @@
+name,code,income
+Aruba,ABW,1000
+Afghanistan,AFG,1
+Angola,AGO,10
+Albania,ALB,100
+Andorra,AND,1000
+United Arab Emirates,ARE,1000
+Argentina,ARG,100
+Armenia,ARM,100
+American Samoa,ASM,1000
+Antigua and Barbuda,ATG,1000
+Australia,AUS,1000
+Austria,AUT,1000
+Azerbaijan,AZE,100
+Burundi,BDI,1
+Belgium,BEL,1000
+Benin,BEN,10
+Burkina Faso,BFA,1
+Bangladesh,BGD,10
+Bulgaria,BGR,100
+Bahrain,BHR,1000
+Bahamas,BHS,1000
+Bosnia and Herzegovina,BIH,100
+Belarus,BLR,100
+Belize,BLZ,100
+Bermuda,BMU,1000
+Bolivia,BOL,10
+Brazil,BRA,100
+Barbados,BRB,1000
+Brunei Darussalam,BRN,1000
+Bhutan,BTN,10
+Botswana,BWA,100
+Central African Republic,CAF,1
+Canada,CAN,1000
+Switzerland,CHE,1000
+Channel Islands,CHI,1000
+Chile,CHL,1000
+China,CHN,100
+C?te d¡¦Ivoire,CIV,10
+Cameroon,CMR,10
+"Congo, Dem. Rep.",COD,1
+"Congo, Rep.",COG,10
+Colombia,COL,100
+Comoros,COM,10
+Cabo Verde,CPV,10
+Costa Rica,CRI,100
+Cuba,CUB,100
+Cura?ao,CUW,1000
+Cayman Islands,CYM,1000
+Cyprus,CYP,1000
+Czechia,CZE,1000
+Germany,DEU,1000
+Djibouti,DJI,10
+Dominica,DMA,100
+Denmark,DNK,1000
+Dominican Republic,DOM,100
+Algeria,DZA,10
+Ecuador,ECU,100
+"Egypt, Arab Rep.",EGY,10
+Eritrea,ERI,1
+Spain,ESP,1000
+Estonia,EST,1000
+Ethiopia,ETH,1
+Finland,FIN,1000
+Fiji,FJI,100
+France,FRA,1000
+Faroe Islands,FRO,1000
+"Micronesia, Fed. Sts.",FSM,10
+Gabon,GAB,100
+United Kingdom,GBR,1000
+Georgia,GEO,100
+Ghana,GHA,10
+Gibraltar,GIB,1000
+Guinea,GIN,10
+"Gambia, The",GMB,1
+Guinea-Bissau,GNB,1
+Equatorial Guinea,GNQ,100
+Greece,GRC,1000
+Grenada,GRD,100
+Greenland,GRL,1000
+Guatemala,GTM,100
+Guam,GUM,1000
+Guyana,GUY,1000
+"Hong Kong SAR, China",HKG,1000
+Honduras,HND,10
+Croatia,HRV,1000
+Haiti,HTI,10
+Hungary,HUN,1000
+Indonesia,IDN,100
+Isle of Man,IMN,1000
+India,IND,10
+Ireland,IRL,1000
+"Iran, Islamic Rep.",IRN,10
+Iraq,IRQ,100
+Iceland,ISL,1000
+Israel,ISR,1000
+Italy,ITA,1000
+Jamaica,JAM,100
+Jordan,JOR,10
+Japan,JPN,1000
+Kazakhstan,KAZ,100
+Kenya,KEN,10
+Kyrgyz Republic,KGZ,10
+Cambodia,KHM,10
+Kiribati,KIR,10
+St. Kitts and Nevis,KNA,1000
+"Korea, Rep.",KOR,1000
+Kuwait,KWT,1000
+Lao PDR,LAO,10
+Lebanon,LBN,10
+Liberia,LBR,1
+Libya,LBY,100
+St. Lucia,LCA,100
+Liechtenstein,LIE,1000
+Sri Lanka,LKA,10
+Lesotho,LSO,10
+Lithuania,LTU,1000
+Luxembourg,LUX,1000
+Latvia,LVA,1000
+"Macao SAR, China",MAC,1000
+St. Martin (French part),MAF,1000
+Morocco,MAR,10
+Monaco,MCO,1000
+Moldova,MDA,100
+Madagascar,MDG,1
+Maldives,MDV,100
+Mexico,MEX,100
+Marshall Islands,MHL,100
+North Macedonia,MKD,100
+Mali,MLI,1
+Malta,MLT,1000
+Myanmar,MMR,10
+Montenegro,MNE,100
+Mongolia,MNG,10
+Northern Mariana Islands,MNP,1000
+Mozambique,MOZ,1
+Mauritania,MRT,10
+Mauritius,MUS,100
+Malawi,MWI,1
+Malaysia,MYS,100
+Namibia,NAM,100
+New Caledonia,NCL,1000
+Niger,NER,1
+Nigeria,NGA,10
+Nicaragua,NIC,10
+Netherlands,NLD,1000
+Norway,NOR,1000
+Nepal,NPL,10
+Nauru,NRU,1000
+New Zealand,NZL,1000
+Oman,OMN,1000
+Pakistan,PAK,10
+Panama,PAN,1000
+Peru,PER,100
+Philippines,PHL,10
+Palau,PLW,100
+Papua New Guinea,PNG,10
+Poland,POL,1000
+Puerto Rico,PRI,1000
+"Korea, Dem. People's Rep.",PRK,1
+Portugal,PRT,1000
+Paraguay,PRY,100
+West Bank and Gaza,PSE,100
+French Polynesia,PYF,1000
+Qatar,QAT,1000
+Romania,ROU,1000
+Russian Federation,RUS,100
+Rwanda,RWA,1
+Saudi Arabia,SAU,1000
+Sudan,SDN,1
+Senegal,SEN,10
+Singapore,SGP,1000
+Solomon Islands,SLB,10
+Sierra Leone,SLE,1
+El Salvador,SLV,100
+San Marino,SMR,1000
+Somalia,SOM,1
+Serbia,SRB,100
+South Sudan,SSD,1
+S?o Tom? and Pr?ncipe,STP,10
+Suriname,SUR,100
+Slovak Republic,SVK,1000
+Slovenia,SVN,1000
+Sweden,SWE,1000
+Eswatini,SWZ,10
+Sint Maarten (Dutch part),SXM,1000
+Seychelles,SYC,1000
+Syrian Arab Republic,SYR,1
+Turks and Caicos Islands,TCA,1000
+Chad,TCD,1
+Togo,TGO,1
+Thailand,THA,100
+Tajikistan,TJK,10
+Turkmenistan,TKM,100
+Timor-Leste,TLS,10
+Tonga,TON,100
+Trinidad and Tobago,TTO,1000
+Tunisia,TUN,10
+T?rkiye,TUR,100
+Tuvalu,TUV,100
+"Taiwan, China",TWN,1000
+Tanzania,TZA,10
+Uganda,UGA,1
+Ukraine,UKR,10
+Uruguay,URY,1000
+United States,USA,1000
+Uzbekistan,UZB,10
+St. Vincent and the Grenadines,VCT,100
+"Venezuela, RB",VEN,
+British Virgin Islands,VGB,1000
+Virgin Islands (U.S.),VIR,1000
+Vietnam,VNM,10
+Vanuatu,VUT,10
+Samoa,WSM,10
+Kosovo,XKX,100
+"Yemen, Rep.",YEM,1
+South Africa,ZAF,100
+Zambia,ZMB,10
+Zimbabwe,ZWE,10
+Wallis and Futuna Islands,WLF,
+Samoa,WSM,
+Swaziland,SWZ,
+Yemen,YEM,
+Zambia,ZMB,
+Zimbabwe,ZWE,
+Indonesia,IDN,
+Guadeloupe,GLP,
+Netherlands Antilles,ANT,
+United Arab Emirates,ARE,
+Timor-Leste,TLS,
+Pitcairn Islands,PCN,
+Palau,PLW,
+Marshall Islands,MHL,
+Saint Pierre and Miquelon,SPM,
+Saint Helena,SHN,
+San Marino,SMR,
+Turks and Caicos Islands,TCA,
+Western Sahara,ESH,
+Serbia,SRB,
+Holy See (Vatican City),VAT,
+Svalbard,SJM,
+Saint Martin,MAF,
+Saint Barthelemy,BLM,
+Guernsey,GGY,
+Jersey,JEY,
+South Georgia South Sandwich Islands,SGS,
+Taiwan,TWN,
