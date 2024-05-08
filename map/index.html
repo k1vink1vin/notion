@@ -7,15 +7,16 @@
 <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
 
 <!-- Create an element where the map will take place -->
-<svg id="my_dataviz" width="400" height="300"></svg>
+<svg id="my_dataviz"></svg>
 
 <script>
 // Javascript to run after document load
-var svg = document.getElementsByTagName("svg")[0];
-var bbox = svg.getBBox();
-svg.setAttribute("width", bbox.width + "px");
-svg.setAttribute("height", bbox.height + "px");
-svg.setAttribute("viewBox", `${bbox.x} ${bbox.y} ${bbox.width} ${bbox.height}`);
+//var svg1 = document.getElementsById("my_dataviz")[0];
+//var bbox = svg1.getBBox();
+//svg1.setAttribute("width", bbox.width + "px");
+//svg1.setAttribute("height", bbox.height + "px");
+//svg1.setAttribute("viewBox", `${bbox.x} ${bbox.y} ${bbox.width} ${bbox.height}`);
+
 
 // The svg
 var svg = d3.select("svg"),
