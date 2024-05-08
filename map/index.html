@@ -10,6 +10,12 @@
 <svg id="my_dataviz" width="400" height="300"></svg>
 
 <script>
+// Javascript to run after document load
+var svg = document.getElementsByTagName("svg")[0];
+var bbox = svg.getBBox();
+svg.setAttribute("width", bbox.width + "px");
+svg.setAttribute("height", bbox.height + "px");
+svg.setAttribute("viewBox", `${bbox.x} ${bbox.y} ${bbox.width} ${bbox.height}`);
 
 // The svg
 var svg = d3.select("svg"),
