@@ -7,7 +7,7 @@
 <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
 
 <!-- Create an element where the map will take place -->
-<svg id="my_dataviz" width="800" height="600"></svg>
+<svg id="my_dataviz" width="400" height="300"></svg>
 
 <script>
 
@@ -25,7 +25,7 @@ var projection = d3.geoMiller()
 var data = d3.map();
 var colorScale = d3.scaleThreshold()
   .domain([9, 99, 999])
-  .range(d3.schemeBlues[4]);
+  .range(d3.schemeSpectral[4]);
 
 // Load external data and boot
 d3.queue()
