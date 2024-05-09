@@ -33,7 +33,7 @@ console.log("resize" + rwdSvgWidth + "x" + rwdSvgHeight);
     .defer(d3.json, "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson")
     .defer(d3.csv, "https://k1vink1vin.github.io/notion/map/economy_income.csv", function(d) { data.set(d.code, +d.income); })
     .await(ready);
-  redraw();
+  var timeoutID = window.setTimeout(( () => redraw() ), 2000);
   d3.select(window).on("resize",redraw);
     
   function ready(error, topo) {
