@@ -1,6 +1,6 @@
 //Map drawing
 
-let rwdSvgWidth = parseInt(d3.select('.RWDChart').style('width')),
+let rwdSvgWidth = parseInt(d3.select('.RWDChart').style('width'));
 let divh = document.getElementsByClassName("weatherwidget-io");
 let rwdSvgHeight =  divh[0].clientHeight*2;
 
