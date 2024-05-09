@@ -1,0 +1,14 @@
+.RWDChart{
+  width: 70%;
+  float:left;
+}
+
+.left{
+  width: 15%;
+  float:left;
+}
+
+.right{
+  width: 15%;
+  float:left;
+}
