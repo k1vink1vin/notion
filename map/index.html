@@ -21,11 +21,12 @@
                 .attr("style", "outline: thin solid red;")
                 .style("background", "black");
 
+
     // Map and projection
   const sphere = {type: 'Sphere'};
-  const projection = d3.geoNaturalEarth1()
-                       .scale(70)
-                       //.center([0,20])
+  const projection = d3.geoPatterson()
+                       //.scale(70)
+                        .rotate([-150, 0])
                         .fitSize([rwdSvgWidth,rwdSvgHeight],sphere)                     
                         .translate([rwdSvgWidth / 2, rwdSvgHeight / 2]);
     
