@@ -23,8 +23,8 @@ wea[3].setAttribute("data-label_1",date.toLocaleTimeString('en-GB', options));
 //Map drawing
 
 let rwdSvgWidth = parseInt(d3.select('.RWDChart').style('width')),
-    divh= document.getElementsByClassName('left');
-    rwdSvgHeight= divh[0].clientHeight;
+    divh= document.getElementsByClassName('left'),
+    rwdSvgHeight= rwdSvgWidth;
 
   const svg = d3.select('.RWDChart')
                 .append('svg')
