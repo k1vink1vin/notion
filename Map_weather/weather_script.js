@@ -10,7 +10,7 @@
   }
 })(document, "script", "weatherwidget-io-js");
 
-var timeout_date = window.setInterval(( () => Update_date() ), 30000);
+var timeout_date = window.setInterval(( () => Update_date() ), 1000);
 
 //change time
 function Update_date(){
