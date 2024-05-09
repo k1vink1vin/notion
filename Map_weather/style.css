@@ -1,6 +1,7 @@
 .RWDChart{
-  width: 70%;
+  width: 68%;
   float:left;
+  border: solid;
 }
 
 .left{
