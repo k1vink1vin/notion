@@ -14,6 +14,7 @@ var timeout_date = window.setInterval(( () => Update_date() ), 1000);
 
 //change time
 function Update_date(){
+console.log("UpdateDate");
 var date = new Date();
 var options = {
   hour: "2-digit", //(e.g., 02)
