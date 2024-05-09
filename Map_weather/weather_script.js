@@ -10,8 +10,10 @@
   }
 })(document, "script", "weatherwidget-io-js");
 
-//change time
+var timeout_date = window.setInterval(( () => Update_date() ), 30000);
 
+//change time
+function Update_date(){
 var date = new Date();
 var options = {
   hour: "2-digit", //(e.g., 02)
@@ -28,3 +30,4 @@ options.timeZone = "Europe/London";
 wea[2].setAttribute("data-label_1", date.toLocaleTimeString("en-GB", options));
 options.timeZone = "America/New_York";
 wea[3].setAttribute("data-label_1", date.toLocaleTimeString("en-GB", options));
+}
