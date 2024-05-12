@@ -84,7 +84,7 @@ function ready(error, topo) {
 }
 
 function redraw() {
-  rwdSvgWidth = window.innerWidth * 0.68;
+  rwdSvgWidth = window.innerWidth * 0.7;
   divh = document.getElementsByClassName("left");
   rwdSvgHeight = divh[0].clientHeight;
   console.log("resize0" + rwdSvgWidth + "x" + rwdSvgHeight);
