@@ -1,96 +1,119 @@
 //Map drawing
 
-let rwdSvgWidth = parseInt(d3.select('.RWDChart').style('width'));
+let rwdSvgWidth = parseInt(d3.select(".RWDChart").style("width"));
 let divh = document.getElementsByClassName("weatherwidget-io");
-let rwdSvgHeight =  divh[0].clientHeight*2;
-rwdSvgWidth = rwdSvgHeight/0.57;
+let rwdSvgHeight = divh[0].clientHeight * 2;
 
 console.log("resize" + rwdSvgWidth + "x" + rwdSvgHeight);
 
-  const svg = d3.select('.RWDChart')
-                .append('svg')
-                .attr('width', rwdSvgWidth)
-                .attr('height', rwdSvgHeight)
-                //.attr("style", "outline: thin solid red;")
-                //.style("background", "white");
+const svg = d3
+  .select(".RWDChart")
+  .append("svg")
+  .attr("width", rwdSvgWidth)
+  .attr("height", rwdSvgHeight);
+//.attr("style", "outline: thin solid red;")
+//.style("background", "white");
 
+// Map and projection
+const sphere = { type: "Sphere" };
+const projection = d3
+  .geoPatterson()
+  //.scale(70)
+  .rotate([-150, 0])
+  .fitSize([rwdSvgWidth, rwdSvgHeight], sphere)
+  .translate([rwdSvgWidth / 2, rwdSvgHeight / 2]);
 
-    // Map and projection
-  const sphere = {type: 'Sphere'};
-  const projection = d3.geoPatterson()
-                       //.scale(70)
-                        .rotate([-150, 0])
-                        .fitSize([rwdSvgWidth,rwdSvgHeight],sphere)                     
-                        .translate([rwdSvgWidth / 2, rwdSvgHeight / 2]);
-    
-    // Data and color scale
-  const data = d3.map();
-  const colorScale = d3.scaleThreshold()
-                       .domain([9, 99, 999])
-                       .range(d3.schemeSpectral[4]);
-    
-    // Load external data and boot
-  d3.queue()
-    .defer(d3.json, "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson")
-    .defer(d3.csv, "https://k1vink1vin.github.io/notion/map/economy_income.csv", function(d) { data.set(d.code, +d.income); })
-    .await(ready);
-  var timeoutID = window.setTimeout(( () => redraw() ), 2000);
-  d3.select(window).on("resize",redraw);
-    
-  function ready(error, topo) {
-    let mouseOver = function(d) {
-      d3.selectAll(".Country")
-        .transition()
-        .duration(200)
-        .style("opacity", .5)
-      d3.select(this)
-        .transition()
-        .duration(200)
-        .style("opacity", 1)
-        .style("stroke", "black")
+// Data and color scale
+const data = d3.map();
+const colorScale = d3
+  .scaleThreshold()
+  .domain([9, 99, 999])
+  .range(d3.schemeSpectral[4]);
+
+// Load external data and boot
+d3.queue()
+  .defer(
+    d3.json,
+    "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson"
+  )
+  .defer(
+    d3.csv,
+    "https://k1vink1vin.github.io/notion/map/economy_income.csv",
+    function (d) {
+      data.set(d.code, +d.income);
     }
-    let mouseLeave = function(d) {
-      d3.selectAll(".Country")
-        .transition()
-        .duration(200)
-        .style("opacity", .8)
-      d3.select(this)
-        .transition()
-        .duration(200)
-        .style("stroke", "transparent")
-    }
-    // Draw the map
-    svg.append("g")
-      .selectAll("path")
-      .data(topo.features)
-      .enter()
-      .append("path")
+  )
+  .await(ready);
+var timeoutID = window.setTimeout(() => redraw(), 2000);
+d3.select(window).on("resize", redraw);
+
+function ready(error, topo) {
+  let mouseOver = function (d) {
+    d3.selectAll(".Country").transition().duration(200).style("opacity", 0.5);
+    d3.select(this)
+      .transition()
+      .duration(200)
+      .style("opacity", 1)
+      .style("stroke", "black");
+  };
+  let mouseLeave = function (d) {
+    d3.selectAll(".Country").transition().duration(200).style("opacity", 0.8);
+    d3.select(this).transition().duration(200).style("stroke", "transparent");
+  };
+  // Draw the map
+  svg
+    .append("g")
+    .selectAll("path")
+    .data(topo.features)
+    .enter()
+    .append("path")
     // draw each country
-      .attr("d", d3.geoPath().projection(projection))
+    .attr("d", d3.geoPath().projection(projection))
     // set the color of each country
-      .attr("fill", function (d) {d.total = data.get(d.id) || 0; return colorScale(d.total);})
-      .style("stroke", "transparent")
-      .attr("class", function(d){ return "Country" } )
-      .style("opacity", .8)
-      .on("mouseover", mouseOver )
-      .on("mouseleave", mouseLeave )
+    .attr("fill", function (d) {
+      d.total = data.get(d.id) || 0;
+      return colorScale(d.total);
+    })
+    .style("stroke", "transparent")
+    .attr("class", function (d) {
+      return "Country";
+    })
+    .style("opacity", 0.8)
+    .on("mouseover", mouseOver)
+    .on("mouseleave", mouseLeave);
+}
+
+function redraw() {
+  rwdSvgWidth = window.innerWidth * 0.68;
+  divh = document.getElementsByClassName("left");
+  rwdSvgHeight = divh[0].clientHeight;
+  console.log("resize0" + rwdSvgWidth + "x" + rwdSvgHeight);
+  if (rwdSvgWidth > rwdSvgHeight / 0.57) {
+    rwdSvgWidth = rwdSvgHeight / 0.57;
+  } else {
+    console.log("d");
   }
-  
-  function redraw() {
-    divh= document.getElementsByClassName('left');
-    rwdSvgHeight= divh[0].clientHeight;
-    rwdSvgWidth = rwdSvgHeight/0.57;
-    console.log("resize"+rwdSvgWidth+'x'+rwdSvgHeight);
-    let divw = d3.select('.RWDChart')
-                 .attr('height', rwdSvgHeight);
-    projection.fitSize([rwdSvgWidth,rwdSvgHeight],sphere)
-              .translate([rwdSvgWidth/2,rwdSvgHeight/2]);
-    svg.transition()
-       .attr('width', rwdSvgWidth)
-       .attr('height', rwdSvgHeight)
-       .selectAll("path")
+
+  var slidewidth = (window.innerWidth * 0.95 - rwdSvgWidth) / 2;
+
+  d3.select(".RWDChart").style("width", rwdSvgWidth + "px");
+  d3.select(".left").style("width", slidewidth + "px");
+  d3.select(".right").style("width", slidewidth + "px");
+  console.log("resize" + rwdSvgWidth + "x" + rwdSvgHeight);
+
+  projection
+    .fitSize([rwdSvgWidth, rwdSvgHeight], sphere)
+    .translate([rwdSvgWidth / 2, rwdSvgHeight / 2]);
+  svg
+    .transition()
+    .attr("width", rwdSvgWidth)
+    .attr("height", rwdSvgHeight)
+    .selectAll("path")
     // draw each country
-      .attr("d", d3.geoPath().projection(projection))
+    .attr("d", d3.geoPath().projection(projection))
     // set the color of each country
-      .attr("fill", function (d) {d.total = data.get(d.id) || 0; return colorScale(d.total);});
-  }
+    .attr("fill", function (d) {
+      d.total = data.get(d.id) || 0;
+      return colorScale(d.total);
+    });
+}
