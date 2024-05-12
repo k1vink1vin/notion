@@ -77,9 +77,9 @@ console.log("resize" + rwdSvgWidth + "x" + rwdSvgHeight);
   }
   
   function redraw() {
-    rwdSvgWidth = parseInt(d3.select('.RWDChart').style('width'));
     divh= document.getElementsByClassName('left');
     rwdSvgHeight= divh[0].clientHeight;
+    rwdSvgWidth = rwdSvgHeight/0.57;
     console.log("resize"+rwdSvgWidth+'x'+rwdSvgHeight);
     let divw = d3.select('.RWDChart')
                  .attr('height', rwdSvgHeight);
