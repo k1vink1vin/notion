@@ -116,20 +116,147 @@
   }
 ],"links": [
   {
-      "source": 1,
-      "target": 2
-    },
-    {
-      "source": 3,
-      "target": 4
-    },
-    {
-      "source": 1,
-      "target": 3
-    },
-
-    {
-      "source": 2,
-      "target": 4
-    }
+    "source_name": "工藤新一",
+    "source": 1,
+    "target_name": "毛利蘭",
+    "target": 2,
+    "relation_name": "戀人",
+    "relation": 1
+  },
+  {
+    "source_name": "服部平次",
+    "source": 3,
+    "target_name": "遠山和葉",
+    "target": 4,
+    "relation_name": "戀人",
+    "relation": 1
+  },
+  {
+    "source_name": "京極真",
+    "source": 6,
+    "target_name": "鈴木園子",
+    "target": 5,
+    "relation_name": "戀人",
+    "relation": 1
+  },
+  {
+    "source_name": "世良真純",
+    "source": 7,
+    "target_name": "江戶川柯南",
+    "target": 15,
+    "relation_name": "單戀",
+    "relation": 2
+  },
+  {
+    "source_name": "大岡紅葉",
+    "source": 8,
+    "target_name": "服部平次",
+    "target": 3,
+    "relation_name": "單戀",
+    "relation": 2
+  },
+  {
+    "source_name": "黑羽快斗",
+    "source": 11,
+    "target_name": "中森青子",
+    "target": 12,
+    "relation_name": "戀人",
+    "relation": 1
+  },
+  {
+    "source_name": "白馬探",
+    "source": 13,
+    "target_name": "小泉紅子",
+    "target": 14,
+    "relation_name": "單戀",
+    "relation": 2
+  },
+  {
+    "source_name": "小泉紅子",
+    "source": 14,
+    "target_name": "黑羽快斗",
+    "target": 11,
+    "relation_name": "單戀",
+    "relation": 2
+  },
+  {
+    "source_name": "灰原哀",
+    "source": 16,
+    "target_name": "江戶川柯南",
+    "target": 15,
+    "relation_name": "單戀",
+    "relation": 2
+  },
+  {
+    "source_name": "吉田步美",
+    "source": 17,
+    "target_name": "江戶川柯南",
+    "target": 15,
+    "relation_name": "單戀",
+    "relation": 2
+  },
+  {
+    "source_name": "圓谷光彥",
+    "source": 18,
+    "target_name": "灰原哀",
+    "target": 16,
+    "relation_name": "單戀",
+    "relation": 2
+  },
+  {
+    "source_name": "圓谷光彥",
+    "source": 18,
+    "target_name": "吉田步美",
+    "target": 17,
+    "relation_name": "單戀",
+    "relation": 2
+  },
+  {
+    "source_name": "小嶋元太",
+    "source": 19,
+    "target_name": "吉田步美",
+    "target": 17,
+    "relation_name": "單戀",
+    "relation": 2
+  },
+  {
+    "source_name": "本堂瑛祐",
+    "source": 10,
+    "target_name": "毛利蘭",
+    "target": 2,
+    "relation_name": "單戀",
+    "relation": 2
+  },
+  {
+    "source_name": "遠山和葉",
+    "source": 4,
+    "target_name": "大岡紅葉",
+    "target": 8,
+    "relation_name": "對手",
+    "relation": 3
+  },
+  {
+    "source_name": "江戶川柯南",
+    "source": 15,
+    "target_name": "本堂瑛祐",
+    "target": 10,
+    "relation_name": "對手",
+    "relation": 3
+  },
+  {
+    "source_name": "服部平次",
+    "source": 3,
+    "target_name": "沖田總司",
+    "target": 9,
+    "relation_name": "對手",
+    "relation": 3
+  },
+  {
+    "source_name": "工藤新一",
+    "source": 1,
+    "target_name": "江戶川柯南",
+    "target": 15,
+    "relation_name": "本人",
+    "relation": 0
+  }
 ]}
