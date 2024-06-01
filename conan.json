@@ -300,6 +300,146 @@
     "big_group": "情報機關",
     "small_group": "日本公安",
     "group": 5400
+  },
+  {
+    "id": 44,
+    "name": "小林澄子",
+    "big_group": "學校",
+    "small_group": "帝丹小學",
+    "group": 1200
+  },
+  {
+    "id": 45,
+    "name": "若狹留美",
+    "big_group": "學校",
+    "small_group": "帝丹小學",
+    "group": 1200
+  },
+  {
+    "id": 46,
+    "name": "白馬警視總監",
+    "big_group": "警察",
+    "small_group": "警視廳",
+    "group": 6100
+  },
+  {
+    "id": 47,
+    "name": "小田切敏郎",
+    "big_group": "警察",
+    "small_group": "警視廳",
+    "group": 6100
+  },
+  {
+    "id": 48,
+    "name": "黑田兵衛",
+    "big_group": "警察",
+    "small_group": "警視廳",
+    "group": 6100
+  },
+  {
+    "id": 49,
+    "name": "目暮十三",
+    "big_group": "警察",
+    "small_group": "警視廳",
+    "group": 6100
+  },
+  {
+    "id": 50,
+    "name": "白鳥任三郎",
+    "big_group": "警察",
+    "small_group": "警視廳",
+    "group": 6100
+  },
+  {
+    "id": 51,
+    "name": "佐藤美和子",
+    "big_group": "警察",
+    "small_group": "警視廳",
+    "group": 6100
+  },
+  {
+    "id": 52,
+    "name": "高木涉",
+    "big_group": "警察",
+    "small_group": "警視廳",
+    "group": 6100
+  },
+  {
+    "id": 53,
+    "name": "千葉和伸",
+    "big_group": "警察",
+    "small_group": "警視廳",
+    "group": 6100
+  },
+  {
+    "id": 54,
+    "name": "茶木神太郎",
+    "big_group": "警察",
+    "small_group": "警視廳",
+    "group": 6100
+  },
+  {
+    "id": 55,
+    "name": "中森銀三",
+    "big_group": "警察",
+    "small_group": "警視廳",
+    "group": 6100
+  },
+  {
+    "id": 56,
+    "name": "宮本由美",
+    "big_group": "警察",
+    "small_group": "警視廳",
+    "group": 6100
+  },
+  {
+    "id": 57,
+    "name": "三池苗子",
+    "big_group": "警察",
+    "small_group": "警視廳",
+    "group": 6100
+  },
+  {
+    "id": 58,
+    "name": "服部平藏",
+    "big_group": "警察",
+    "small_group": "大阪府警",
+    "group": 6200
+  },
+  {
+    "id": 59,
+    "name": "遠山銀司郎",
+    "big_group": "警察",
+    "small_group": "大阪府警",
+    "group": 6200
+  },
+  {
+    "id": 60,
+    "name": "大瀧悟郎",
+    "big_group": "警察",
+    "small_group": "大阪府警",
+    "group": 6200
+  },
+  {
+    "id": 61,
+    "name": "大和敢助",
+    "big_group": "警察",
+    "small_group": "長野縣警",
+    "group": 6300
+  },
+  {
+    "id": 62,
+    "name": "上原由衣",
+    "big_group": "警察",
+    "small_group": "長野縣警",
+    "group": 6300
+  },
+  {
+    "id": 63,
+    "name": "諸伏高明",
+    "big_group": "警察",
+    "small_group": "長野縣警",
+    "group": 6300
   }
 ],"links": [
   {
@@ -645,5 +785,189 @@
     "target": 38,
     "relation_name": "屬下",
     "relation": 4
+  },
+  {
+    "source_name": "赤井秀一",
+    "source": 34,
+    "target_name": "沖矢昴",
+    "target": 35,
+    "relation_name": "本人",
+    "relation": 0
+  },
+  {
+    "source_name": "白馬警視總監",
+    "source": 46,
+    "target_name": "小田切敏郎",
+    "target": 47,
+    "relation_name": "屬下",
+    "relation": 4
+  },
+  {
+    "source_name": "小田切敏郎",
+    "source": 47,
+    "target_name": "黑田兵衛",
+    "target": 48,
+    "relation_name": "屬下",
+    "relation": 4
+  },
+  {
+    "source_name": "小田切敏郎",
+    "source": 47,
+    "target_name": "茶木神太郎",
+    "target": 54,
+    "relation_name": "屬下",
+    "relation": 4
+  },
+  {
+    "source_name": "黑田兵衛",
+    "source": 48,
+    "target_name": "目暮十三",
+    "target": 49,
+    "relation_name": "屬下",
+    "relation": 4
+  },
+  {
+    "source_name": "目暮十三",
+    "source": 49,
+    "target_name": "白鳥任三郎",
+    "target": 50,
+    "relation_name": "屬下",
+    "relation": 4
+  },
+  {
+    "source_name": "目暮十三",
+    "source": 49,
+    "target_name": "佐藤美和子",
+    "target": 51,
+    "relation_name": "屬下",
+    "relation": 4
+  },
+  {
+    "source_name": "目暮十三",
+    "source": 49,
+    "target_name": "高木涉",
+    "target": 52,
+    "relation_name": "屬下",
+    "relation": 4
+  },
+  {
+    "source_name": "目暮十三",
+    "source": 49,
+    "target_name": "千葉和伸",
+    "target": 53,
+    "relation_name": "屬下",
+    "relation": 4
+  },
+  {
+    "source_name": "茶木神太郎",
+    "source": 54,
+    "target_name": "中森銀三",
+    "target": 55,
+    "relation_name": "屬下",
+    "relation": 4
+  },
+  {
+    "source_name": "佐藤美和子",
+    "source": 51,
+    "target_name": "高木涉",
+    "target": 52,
+    "relation_name": "戀人",
+    "relation": 1
+  },
+  {
+    "source_name": "三池苗子",
+    "source": 57,
+    "target_name": "千葉和伸",
+    "target": 53,
+    "relation_name": "戀人",
+    "relation": 1
+  },
+  {
+    "source_name": "白馬警視總監",
+    "source": 46,
+    "target_name": "白馬探",
+    "target": 13,
+    "relation_name": "親屬",
+    "relation": 5
+  },
+  {
+    "source_name": "中森銀三",
+    "source": 55,
+    "target_name": "中森青子",
+    "target": 12,
+    "relation_name": "親屬",
+    "relation": 5
+  },
+  {
+    "source_name": "降谷零",
+    "source": 42,
+    "target_name": "風見裕也",
+    "target": 41,
+    "relation_name": "屬下",
+    "relation": 4
+  },
+  {
+    "source_name": "小林澄子",
+    "source": 44,
+    "target_name": "白鳥任三郎",
+    "target": 50,
+    "relation_name": "戀人",
+    "relation": 1
+  },
+  {
+    "source_name": "服部平藏",
+    "source": 58,
+    "target_name": "遠山銀司郎",
+    "target": 59,
+    "relation_name": "屬下",
+    "relation": 4
+  },
+  {
+    "source_name": "遠山銀司郎",
+    "source": 59,
+    "target_name": "大瀧悟郎",
+    "target": 60,
+    "relation_name": "屬下",
+    "relation": 4
+  },
+  {
+    "source_name": "服部平藏",
+    "source": 58,
+    "target_name": "服部平次",
+    "target": 3,
+    "relation_name": "親屬",
+    "relation": 5
+  },
+  {
+    "source_name": "遠山銀司郎",
+    "source": 59,
+    "target_name": "遠山和葉",
+    "target": 4,
+    "relation_name": "親屬",
+    "relation": 5
+  },
+  {
+    "source_name": "大和敢助",
+    "source": 61,
+    "target_name": "上原由衣",
+    "target": 62,
+    "relation_name": "戀人",
+    "relation": 1
+  },
+  {
+    "source_name": "諸伏高明",
+    "source": 63,
+    "target_name": "諸伏景光",
+    "target": 43,
+    "relation_name": "親屬",
+    "relation": 5
+  },
+  {
+    "source_name": "大和敢助",
+    "source": 61,
+    "target_name": "諸伏高明",
+    "target": 63,
+    "relation_name": "對手",
+    "relation": 3
   }
 ]}
