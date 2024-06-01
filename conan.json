@@ -440,6 +440,153 @@
     "big_group": "警察",
     "small_group": "長野縣警",
     "group": 6300
+  },
+  {
+    "id": 64,
+    "name": "橫溝重悟",
+    "big_group": "警察",
+    "small_group": "神奈川縣警",
+    "group": 6400
+  },
+  {
+    "id": 65,
+    "name": "萩原千速",
+    "big_group": "警察",
+    "small_group": "神奈川縣警",
+    "group": 6400
+  },
+  {
+    "id": 66,
+    "name": "綾小路文麿",
+    "big_group": "警察",
+    "small_group": "京都府警",
+    "group": 6500
+  },
+  {
+    "id": 67,
+    "name": "工藤家",
+    "big_group": "家族",
+    "small_group": "",
+    "group": 0
+  },
+  {
+    "id": 68,
+    "name": "毛利家",
+    "big_group": "家族",
+    "small_group": "",
+    "group": 0
+  },
+  {
+    "id": 69,
+    "name": "赤井家",
+    "big_group": "家族",
+    "small_group": "",
+    "group": 0
+  },
+  {
+    "id": 70,
+    "name": "宮野家",
+    "big_group": "家族",
+    "small_group": "",
+    "group": 0
+  },
+  {
+    "id": 71,
+    "name": "工藤優作",
+    "big_group": "",
+    "small_group": "",
+    "group": ""
+  },
+  {
+    "id": 72,
+    "name": "工藤有希子",
+    "big_group": "",
+    "small_group": "",
+    "group": ""
+  },
+  {
+    "id": 73,
+    "name": "毛利小五郎",
+    "big_group": "",
+    "small_group": "",
+    "group": ""
+  },
+  {
+    "id": 74,
+    "name": "妃英理",
+    "big_group": "",
+    "small_group": "",
+    "group": ""
+  },
+  {
+    "id": 75,
+    "name": "羽田秀吉",
+    "big_group": "",
+    "small_group": "",
+    "group": ""
+  },
+  {
+    "id": 76,
+    "name": "宮野厚司",
+    "big_group": "",
+    "small_group": "",
+    "group": ""
+  },
+  {
+    "id": 77,
+    "name": "宮野艾蓮娜",
+    "big_group": "",
+    "small_group": "",
+    "group": ""
+  },
+  {
+    "id": 78,
+    "name": "宮野明美",
+    "big_group": "",
+    "small_group": "",
+    "group": ""
+  },
+  {
+    "id": 79,
+    "name": "鈴木次郎吉",
+    "big_group": "",
+    "small_group": "",
+    "group": ""
+  },
+  {
+    "id": 80,
+    "name": "伊織無我",
+    "big_group": "",
+    "small_group": "",
+    "group": ""
+  },
+  {
+    "id": 81,
+    "name": "阿笠博士",
+    "big_group": "",
+    "small_group": "",
+    "group": ""
+  },
+  {
+    "id": 82,
+    "name": "寺井黃之助",
+    "big_group": "",
+    "small_group": "",
+    "group": ""
+  },
+  {
+    "id": 83,
+    "name": "黑羽盜一",
+    "big_group": "",
+    "small_group": "",
+    "group": ""
+  },
+  {
+    "id": 84,
+    "name": "莎朗·溫亞德",
+    "big_group": "",
+    "small_group": "",
+    "group": ""
   }
 ],"links": [
   {
@@ -969,5 +1116,221 @@
     "target": 63,
     "relation_name": "對手",
     "relation": 3
+  },
+  {
+    "source_name": "橫溝重悟",
+    "source": 64,
+    "target_name": "萩原千速",
+    "target": 65,
+    "relation_name": "戀人",
+    "relation": 1
+  },
+  {
+    "source_name": "白鳥任三郎",
+    "source": 50,
+    "target_name": "綾小路文麿",
+    "target": 66,
+    "relation_name": "對手",
+    "relation": 3
+  },
+  {
+    "source_name": "工藤家",
+    "source": 67,
+    "target_name": "工藤優作",
+    "target": 71,
+    "relation_name": "親屬",
+    "relation": 5
+  },
+  {
+    "source_name": "工藤家",
+    "source": 67,
+    "target_name": "工藤有希子",
+    "target": 72,
+    "relation_name": "親屬",
+    "relation": 5
+  },
+  {
+    "source_name": "工藤家",
+    "source": 67,
+    "target_name": "工藤新一",
+    "target": 1,
+    "relation_name": "親屬",
+    "relation": 5
+  },
+  {
+    "source_name": "毛利家",
+    "source": 68,
+    "target_name": "毛利小五郎",
+    "target": 73,
+    "relation_name": "親屬",
+    "relation": 5
+  },
+  {
+    "source_name": "毛利家",
+    "source": 68,
+    "target_name": "妃英理",
+    "target": 74,
+    "relation_name": "親屬",
+    "relation": 5
+  },
+  {
+    "source_name": "毛利家",
+    "source": 68,
+    "target_name": "毛利蘭",
+    "target": 2,
+    "relation_name": "親屬",
+    "relation": 5
+  },
+  {
+    "source_name": "赤井家",
+    "source": 69,
+    "target_name": "赤井務武",
+    "target": 40,
+    "relation_name": "親屬",
+    "relation": 5
+  },
+  {
+    "source_name": "赤井家",
+    "source": 69,
+    "target_name": "瑪麗·世良",
+    "target": 39,
+    "relation_name": "親屬",
+    "relation": 5
+  },
+  {
+    "source_name": "赤井家",
+    "source": 69,
+    "target_name": "赤井秀一",
+    "target": 34,
+    "relation_name": "親屬",
+    "relation": 5
+  },
+  {
+    "source_name": "赤井家",
+    "source": 69,
+    "target_name": "羽田秀吉",
+    "target": 75,
+    "relation_name": "親屬",
+    "relation": 5
+  },
+  {
+    "source_name": "赤井家",
+    "source": 69,
+    "target_name": "世良真純",
+    "target": 7,
+    "relation_name": "親屬",
+    "relation": 5
+  },
+  {
+    "source_name": "羽田秀吉",
+    "source": 75,
+    "target_name": "宮本由美",
+    "target": 56,
+    "relation_name": "戀人",
+    "relation": 1
+  },
+  {
+    "source_name": "宮野家",
+    "source": 70,
+    "target_name": "宮野厚司",
+    "target": 76,
+    "relation_name": "親屬",
+    "relation": 5
+  },
+  {
+    "source_name": "宮野家",
+    "source": 70,
+    "target_name": "宮野艾蓮娜",
+    "target": 77,
+    "relation_name": "親屬",
+    "relation": 5
+  },
+  {
+    "source_name": "宮野家",
+    "source": 70,
+    "target_name": "宮野明美",
+    "target": 78,
+    "relation_name": "親屬",
+    "relation": 5
+  },
+  {
+    "source_name": "宮野家",
+    "source": 70,
+    "target_name": "Sherry",
+    "target": 32,
+    "relation_name": "親屬",
+    "relation": 5
+  },
+  {
+    "source_name": "宮野明美",
+    "source": 78,
+    "target_name": "赤井秀一",
+    "target": 34,
+    "relation_name": "戀人",
+    "relation": 1
+  },
+  {
+    "source_name": "宮野艾蓮娜",
+    "source": 77,
+    "target_name": "瑪麗·世良",
+    "target": 39,
+    "relation_name": "親屬",
+    "relation": 5
+  },
+  {
+    "source_name": "鈴木次郎吉",
+    "source": 79,
+    "target_name": "鈴木園子",
+    "target": 5,
+    "relation_name": "親屬",
+    "relation": 5
+  },
+  {
+    "source_name": "大岡紅葉",
+    "source": 8,
+    "target_name": "伊織無我",
+    "target": 80,
+    "relation_name": "屬下",
+    "relation": 4
+  },
+  {
+    "source_name": "鈴木次郎吉",
+    "source": 79,
+    "target_name": "怪盜基德",
+    "target": 20,
+    "relation_name": "對手",
+    "relation": 3
+  },
+  {
+    "source_name": "中森銀三",
+    "source": 55,
+    "target_name": "怪盜基德",
+    "target": 20,
+    "relation_name": "對手",
+    "relation": 3
+  },
+  {
+    "source_name": "工藤優作",
+    "source": 71,
+    "target_name": "黑羽盜一",
+    "target": 83,
+    "relation_name": "對手",
+    "relation": 3
+  },
+  {
+    "source_name": "黑羽盜一",
+    "source": 83,
+    "target_name": "怪盜基德",
+    "target": 20,
+    "relation_name": "本人",
+    "relation": 0
+  },
+  {
+    "source_name": "Vermouth",
+    "source": 23,
+    "target_name": "莎朗·溫亞德",
+    "target": 84,
+    "relation_name": "本人",
+    "relation": 0
   }
 ]}
