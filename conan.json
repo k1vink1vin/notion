@@ -119,6 +119,78 @@
     "name": "怪盜基德",
     "group_name": "",
     "group": ""
+  },
+  {
+    "id": 21,
+    "name": "那位先生",
+    "group_name": "酒廠",
+    "group": 9100
+  },
+  {
+    "id": 22,
+    "name": "Rum",
+    "group_name": "酒廠",
+    "group": 9100
+  },
+  {
+    "id": 23,
+    "name": "Vermouth",
+    "group_name": "酒廠",
+    "group": 9100
+  },
+  {
+    "id": 24,
+    "name": "Gin",
+    "group_name": "酒廠",
+    "group": 9100
+  },
+  {
+    "id": 25,
+    "name": "Bourbon",
+    "group_name": "酒廠",
+    "group": 9100
+  },
+  {
+    "id": 26,
+    "name": "Rye",
+    "group_name": "酒廠",
+    "group": 9100
+  },
+  {
+    "id": 27,
+    "name": "Scotch",
+    "group_name": "酒廠",
+    "group": 9100
+  },
+  {
+    "id": 28,
+    "name": "Chianti",
+    "group_name": "酒廠",
+    "group": 9100
+  },
+  {
+    "id": 29,
+    "name": "Vodka",
+    "group_name": "酒廠",
+    "group": 9100
+  },
+  {
+    "id": 30,
+    "name": "Korn",
+    "group_name": "酒廠",
+    "group": 9100
+  },
+  {
+    "id": 31,
+    "name": "Kir",
+    "group_name": "酒廠",
+    "group": 9100
+  },
+  {
+    "id": 32,
+    "name": "Sherry",
+    "group_name": "酒廠",
+    "group": 9100
   }
 ],"links": [
   {
@@ -288,5 +360,117 @@
     "target": 3,
     "relation_name": "對手",
     "relation": 3
+  },
+  {
+    "source_name": "京極真",
+    "source": 6,
+    "target_name": "怪盜基德",
+    "target": 20,
+    "relation_name": "對手",
+    "relation": 3
+  },
+  {
+    "source_name": "白馬探",
+    "source": 13,
+    "target_name": "怪盜基德",
+    "target": 20,
+    "relation_name": "對手",
+    "relation": 3
+  },
+  {
+    "source_name": "那位先生",
+    "source": 21,
+    "target_name": "Rum",
+    "target": 22,
+    "relation_name": "屬下",
+    "relation": 4
+  },
+  {
+    "source_name": "那位先生",
+    "source": 21,
+    "target_name": "Vermouth",
+    "target": 23,
+    "relation_name": "屬下",
+    "relation": 4
+  },
+  {
+    "source_name": "那位先生",
+    "source": 21,
+    "target_name": "Gin",
+    "target": 24,
+    "relation_name": "屬下",
+    "relation": 4
+  },
+  {
+    "source_name": "那位先生",
+    "source": 21,
+    "target_name": "Bourbon",
+    "target": 25,
+    "relation_name": "屬下",
+    "relation": 4
+  },
+  {
+    "source_name": "那位先生",
+    "source": 21,
+    "target_name": "Rye",
+    "target": 26,
+    "relation_name": "屬下",
+    "relation": 4
+  },
+  {
+    "source_name": "那位先生",
+    "source": 21,
+    "target_name": "Scotch",
+    "target": 27,
+    "relation_name": "屬下",
+    "relation": 4
+  },
+  {
+    "source_name": "Gin",
+    "source": 24,
+    "target_name": "Chianti",
+    "target": 28,
+    "relation_name": "屬下",
+    "relation": 4
+  },
+  {
+    "source_name": "Gin",
+    "source": 24,
+    "target_name": "Vodka",
+    "target": 29,
+    "relation_name": "屬下",
+    "relation": 4
+  },
+  {
+    "source_name": "Gin",
+    "source": 24,
+    "target_name": "Korn",
+    "target": 30,
+    "relation_name": "屬下",
+    "relation": 4
+  },
+  {
+    "source_name": "Gin",
+    "source": 24,
+    "target_name": "Kir",
+    "target": 31,
+    "relation_name": "屬下",
+    "relation": 4
+  },
+  {
+    "source_name": "那位先生",
+    "source": 21,
+    "target_name": "Sherry",
+    "target": 32,
+    "relation_name": "屬下",
+    "relation": 4
+  },
+  {
+    "source_name": "灰原哀",
+    "source": 16,
+    "target_name": "Sherry",
+    "target": 32,
+    "relation_name": "本人",
+    "relation": 0
   }
 ]}
