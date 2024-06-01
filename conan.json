@@ -3,194 +3,303 @@
   {
     "id": 1,
     "name": "工藤新一",
-    "group_name": "帝丹高中",
+    "big_group": "學校",
+    "small_group": "帝丹高中",
     "group": 1100
   },
   {
     "id": 2,
     "name": "毛利蘭",
-    "group_name": "帝丹高中",
+    "big_group": "學校",
+    "small_group": "帝丹高中",
     "group": 1100
   },
   {
     "id": 3,
     "name": "服部平次",
-    "group_name": "改方學園",
+    "big_group": "學校",
+    "small_group": "改方學園",
     "group": 1300
   },
   {
     "id": 4,
     "name": "遠山和葉",
-    "group_name": "改方學園",
+    "big_group": "學校",
+    "small_group": "改方學園",
     "group": 1300
   },
   {
     "id": 5,
     "name": "鈴木園子",
-    "group_name": "帝丹高中",
+    "big_group": "學校",
+    "small_group": "帝丹高中",
     "group": 1100
   },
   {
     "id": 6,
     "name": "京極真",
-    "group_name": "杯戶高中",
+    "big_group": "學校",
+    "small_group": "杯戶高中",
     "group": 1400
   },
   {
     "id": 7,
     "name": "世良真純",
-    "group_name": "帝丹高中",
+    "big_group": "學校",
+    "small_group": "帝丹高中",
     "group": 1100
   },
   {
     "id": 8,
     "name": "大岡紅葉",
-    "group_name": "泉心高中",
+    "big_group": "學校",
+    "small_group": "泉心高中",
     "group": 1500
   },
   {
     "id": 9,
     "name": "沖田總司",
-    "group_name": "泉心高中",
+    "big_group": "學校",
+    "small_group": "泉心高中",
     "group": 1500
   },
   {
     "id": 10,
     "name": "本堂瑛祐",
-    "group_name": "帝丹高中",
+    "big_group": "學校",
+    "small_group": "帝丹高中",
     "group": 1100
   },
   {
     "id": 11,
     "name": "黑羽快斗",
-    "group_name": "江古田高中",
+    "big_group": "學校",
+    "small_group": "江古田高中",
     "group": 1600
   },
   {
     "id": 12,
     "name": "中森青子",
-    "group_name": "江古田高中",
+    "big_group": "學校",
+    "small_group": "江古田高中",
     "group": 1600
   },
   {
     "id": 13,
     "name": "白馬探",
-    "group_name": "江古田高中",
+    "big_group": "學校",
+    "small_group": "江古田高中",
     "group": 1600
   },
   {
     "id": 14,
     "name": "小泉紅子",
-    "group_name": "江古田高中",
+    "big_group": "學校",
+    "small_group": "江古田高中",
     "group": 1600
   },
   {
     "id": 15,
     "name": "江戶川柯南",
-    "group_name": "帝丹小學",
+    "big_group": "學校",
+    "small_group": "帝丹小學",
     "group": 1200
   },
   {
     "id": 16,
     "name": "灰原哀",
-    "group_name": "帝丹小學",
+    "big_group": "學校",
+    "small_group": "帝丹小學",
     "group": 1200
   },
   {
     "id": 17,
     "name": "吉田步美",
-    "group_name": "帝丹小學",
+    "big_group": "學校",
+    "small_group": "帝丹小學",
     "group": 1200
   },
   {
     "id": 18,
     "name": "圓谷光彥",
-    "group_name": "帝丹小學",
+    "big_group": "學校",
+    "small_group": "帝丹小學",
     "group": 1200
   },
   {
     "id": 19,
     "name": "小嶋元太",
-    "group_name": "帝丹小學",
+    "big_group": "學校",
+    "small_group": "帝丹小學",
     "group": 1200
   },
   {
     "id": 20,
     "name": "怪盜基德",
-    "group_name": "",
+    "big_group": "",
+    "small_group": "",
     "group": ""
   },
   {
     "id": 21,
     "name": "那位先生",
-    "group_name": "酒廠",
+    "big_group": "酒廠",
+    "small_group": "",
     "group": 9100
   },
   {
     "id": 22,
     "name": "Rum",
-    "group_name": "酒廠",
+    "big_group": "酒廠",
+    "small_group": "",
     "group": 9100
   },
   {
     "id": 23,
     "name": "Vermouth",
-    "group_name": "酒廠",
+    "big_group": "酒廠",
+    "small_group": "",
     "group": 9100
   },
   {
     "id": 24,
     "name": "Gin",
-    "group_name": "酒廠",
+    "big_group": "酒廠",
+    "small_group": "",
     "group": 9100
   },
   {
     "id": 25,
     "name": "Bourbon",
-    "group_name": "酒廠",
+    "big_group": "酒廠",
+    "small_group": "",
     "group": 9100
   },
   {
     "id": 26,
     "name": "Rye",
-    "group_name": "酒廠",
+    "big_group": "酒廠",
+    "small_group": "",
     "group": 9100
   },
   {
     "id": 27,
     "name": "Scotch",
-    "group_name": "酒廠",
+    "big_group": "酒廠",
+    "small_group": "",
     "group": 9100
   },
   {
     "id": 28,
     "name": "Chianti",
-    "group_name": "酒廠",
+    "big_group": "酒廠",
+    "small_group": "",
     "group": 9100
   },
   {
     "id": 29,
     "name": "Vodka",
-    "group_name": "酒廠",
+    "big_group": "酒廠",
+    "small_group": "",
     "group": 9100
   },
   {
     "id": 30,
     "name": "Korn",
-    "group_name": "酒廠",
+    "big_group": "酒廠",
+    "small_group": "",
     "group": 9100
   },
   {
     "id": 31,
     "name": "Kir",
-    "group_name": "酒廠",
+    "big_group": "酒廠",
+    "small_group": "",
     "group": 9100
   },
   {
     "id": 32,
     "name": "Sherry",
-    "group_name": "酒廠",
+    "big_group": "酒廠",
+    "small_group": "",
     "group": 9100
+  },
+  {
+    "id": 33,
+    "name": "本堂瑛海",
+    "big_group": "情報機關",
+    "small_group": "CIA",
+    "group": 5200
+  },
+  {
+    "id": 34,
+    "name": "赤井秀一",
+    "big_group": "情報機關",
+    "small_group": "FBI",
+    "group": 5100
+  },
+  {
+    "id": 35,
+    "name": "沖矢昴",
+    "big_group": "",
+    "small_group": "",
+    "group": ""
+  },
+  {
+    "id": 36,
+    "name": "茱蒂",
+    "big_group": "情報機關",
+    "small_group": "FBI",
+    "group": 5100
+  },
+  {
+    "id": 37,
+    "name": "詹姆斯",
+    "big_group": "情報機關",
+    "small_group": "FBI",
+    "group": 5100
+  },
+  {
+    "id": 38,
+    "name": "安德烈",
+    "big_group": "情報機關",
+    "small_group": "FBI",
+    "group": 5100
+  },
+  {
+    "id": 39,
+    "name": "瑪麗·世良",
+    "big_group": "情報機關",
+    "small_group": "MI6",
+    "group": 5300
+  },
+  {
+    "id": 40,
+    "name": "赤井務武",
+    "big_group": "情報機關",
+    "small_group": "MI6",
+    "group": 5300
+  },
+  {
+    "id": 41,
+    "name": "風見裕也",
+    "big_group": "情報機關",
+    "small_group": "日本公安",
+    "group": 5400
+  },
+  {
+    "id": 42,
+    "name": "降谷零",
+    "big_group": "情報機關",
+    "small_group": "日本公安",
+    "group": 5400
+  },
+  {
+    "id": 43,
+    "name": "諸伏景光",
+    "big_group": "情報機關",
+    "small_group": "日本公安",
+    "group": 5400
   }
 ],"links": [
   {
@@ -472,5 +581,69 @@
     "target": 32,
     "relation_name": "本人",
     "relation": 0
+  },
+  {
+    "source_name": "本堂瑛海",
+    "source": 33,
+    "target_name": "Kir",
+    "target": 31,
+    "relation_name": "本人",
+    "relation": 0
+  },
+  {
+    "source_name": "赤井秀一",
+    "source": 34,
+    "target_name": "Rye",
+    "target": 26,
+    "relation_name": "本人",
+    "relation": 0
+  },
+  {
+    "source_name": "降谷零",
+    "source": 42,
+    "target_name": "Bourbon",
+    "target": 25,
+    "relation_name": "本人",
+    "relation": 0
+  },
+  {
+    "source_name": "諸伏景光",
+    "source": 43,
+    "target_name": "Scotch",
+    "target": 27,
+    "relation_name": "本人",
+    "relation": 0
+  },
+  {
+    "source_name": "本堂瑛海",
+    "source": 33,
+    "target_name": "本堂瑛祐",
+    "target": 10,
+    "relation_name": "親屬",
+    "relation": 5
+  },
+  {
+    "source_name": "詹姆斯",
+    "source": 37,
+    "target_name": "赤井秀一",
+    "target": 34,
+    "relation_name": "屬下",
+    "relation": 4
+  },
+  {
+    "source_name": "詹姆斯",
+    "source": 37,
+    "target_name": "茱蒂",
+    "target": 36,
+    "relation_name": "屬下",
+    "relation": 4
+  },
+  {
+    "source_name": "詹姆斯",
+    "source": 37,
+    "target_name": "安德烈",
+    "target": 38,
+    "relation_name": "屬下",
+    "relation": 4
   }
 ]}
