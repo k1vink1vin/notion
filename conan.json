@@ -113,6 +113,12 @@
     "name": "小嶋元太",
     "group_name": "帝丹小學",
     "group": 1200
+  },
+  {
+    "id": 20,
+    "name": "怪盜基德",
+    "group_name": "",
+    "group": ""
   }
 ],"links": [
   {
@@ -258,5 +264,29 @@
     "target": 15,
     "relation_name": "本人",
     "relation": 0
+  },
+  {
+    "source_name": "江戶川柯南",
+    "source": 15,
+    "target_name": "怪盜基德",
+    "target": 20,
+    "relation_name": "對手",
+    "relation": 3
+  },
+  {
+    "source_name": "黑羽快斗",
+    "source": 11,
+    "target_name": "怪盜基德",
+    "target": 20,
+    "relation_name": "本人",
+    "relation": 0
+  },
+  {
+    "source_name": "工藤新一",
+    "source": 1,
+    "target_name": "服部平次",
+    "target": 3,
+    "relation_name": "對手",
+    "relation": 3
   }
 ]}
