@@ -1,0 +1,30 @@
+{
+"nodes":[
+ {
+  "id": "CHN",
+  "cn": "中華人民共和國",
+  "en": "People's Republic of China"
+ },
+ {
+  "id": "TWN",
+  "cn": "中華民國",
+  "en": "Republic of China"
+ },
+ {
+  "id": "GBR",
+  "cn": "英國",
+  "en": "United Kingdom of Great Britain and Northern Ireland"
+ },
+ {
+  "id": "USA",
+  "cn": "美國",
+  "en": "United States of America"
+ }
+],"links":[
+ {
+  "target": "TWN",
+  "source": "CHN",
+  "value": 1
+ }
+]
+}
